@@ -1,0 +1,63 @@
+.logo{
+    display: block;
+    margin: auto;
+    height: 50px;
+    width: 50 px;
+}
+.heading{
+    margin: auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+}
+body{
+       background-color: rgb(201, 171, 162);
+}
+
+.container{
+    max-width: 1200px;
+    border: 2px solid black;
+    border-radius: 7px;
+    margin: auto;
+    height: 63vh;
+    padding: 33px;
+    overflow-y: auto;
+    margin-bottom: 23px ;
+}
+.message{
+    background-color: rgb(99, 165, 170);
+    width: 24%;
+    padding: 10px;
+    margin: 17px 12px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.left{
+    float: left;
+    clear: both;
+    
+}
+.right{
+    float: right;
+    clear: both;
+
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+#messageInp{
+    width: 92%;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 34px;
+}
+#send-Container{
+    display: block;
+    margin: auto;
+    text-align: center;   
+    max-width: 985px;
+    width: 100%;
+}
